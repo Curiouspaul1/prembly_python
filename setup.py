@@ -25,7 +25,7 @@ setup(
     author="Olanrewaju Kabiru",
     author_email="programmerolakay@gmail.com",
     url="https://github.com/olakayCoder1/pyprembly",
-    python_requires='3',
+    python_requires='>=3.5',
     install_requires=[
         "requests",
         "python-dotenv",
