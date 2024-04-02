@@ -13,7 +13,6 @@ with open(os.path.join(here, 'LONG_DESCRIPTION.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-
 setup(
     name = 'pyprembly',
     version='0.0.3',
@@ -26,7 +25,7 @@ setup(
     author="Olanrewaju Kabiru",
     author_email="programmerolakay@gmail.com",
     url="https://github.com/olakayCoder1/pyprembly",
-    python_requires='>=3.x',
+    python_requires='3',
     install_requires=[
         "requests",
         "python-dotenv",
@@ -45,6 +44,6 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Environment :: Web Environment",
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',   
+        'License :: OSI Approved :: MIT License',
     ]
 )
